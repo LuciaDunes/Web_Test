@@ -20,7 +20,14 @@
         <!-- Vue -->
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-        <title>Template Web </title>
+        <!-- Koneksi database MySQL -->
+        <?php
+            include 'connection.php';
+
+            //mysqli_close($conn);
+        ?>
+
+        <title>Template Web</title>
     </head>
 
     <body>
